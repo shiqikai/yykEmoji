@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">emoji</string>
+    <!-- Emoji -->
+    <string name="face_recently">最近</string>
+    <string name="face_Emoji">Emoji</string>
+    <string name="face_set_one">默认</string>
+</resources>
