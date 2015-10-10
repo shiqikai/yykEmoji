@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">emoji</string>
+
+    <!-- Emoji -->
+    <string name="face_recently">Recently</string>
+    <string name="face_Emoji">Emoji</string>
+    <string name="face_set_one">Default</string>
+</resources>

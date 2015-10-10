@@ -2,7 +2,9 @@ package com.tb.emoji;
 
 import java.io.Serializable;
 
-
+/**
+ * Created by teambition on 15/8/27.
+ */
 public class Emoji implements Serializable {
     int imageUri;
     String content;

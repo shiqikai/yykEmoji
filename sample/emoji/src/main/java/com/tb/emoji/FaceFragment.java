@@ -1,9 +1,9 @@
 package com.tb.emoji;
 
 import android.app.Activity;
-import android.support.v4.app.Fragment;
 import android.content.Context;
 import android.os.Bundle;
+import android.support.v4.app.Fragment;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
@@ -11,7 +11,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.BaseAdapter;
-import android.widget.FrameLayout;
 import android.widget.GridView;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -21,6 +20,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 
+/**
+ * Created by teambition on 15/8/27.
+ */
 public class FaceFragment extends Fragment implements View.OnClickListener {
 
     public static FaceFragment Instance() {
