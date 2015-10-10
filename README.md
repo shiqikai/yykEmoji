@@ -18,7 +18,8 @@ API 21: Android 5.0(Lollipop) 和 21.1.0 (与emoji这个module一样) 点击OK.
 (确保你app里的setting.gradle中含有该Module，之后在app中的build.gradle中的dependencies中加入compile project(‘:emoji’)(emoji换成你之前命名的module名字))之后就可以reBuild一下项目啦，如果遇到EmojiUtil类在Build时报错，在报错的时候导入一下包就好了。
 
 代码中的使用：
+```
 FaceFragment faceFragment = FaceFragment.Instance();
 getSupportFragmentManager().beginTransaction().add(R.id.Container,faceFragment).commit();
-
-注意让你的Activity或者Fragmeng实现FaceFragment.OnEmojiClickListener来处理emoji的点击事件
+```
+注意让你的Activity实现(Fragment中set接口)`FaceFragment.OnEmojiClickListener`来处理emoji的点击事件
