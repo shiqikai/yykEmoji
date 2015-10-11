@@ -1,7 +1,7 @@
 # yykEmoji
 andorid表情
 
-<img src="./images/1.png">
+<img src="./images/emoji.gif">
 
 使用方法：
 在Andorid Studio中右击你的项目—>Open Module Settings.
