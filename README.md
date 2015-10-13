@@ -6,6 +6,7 @@ andorid表情
 
 Build方法一（复杂）:
 
+
 在Andorid Studio中右击你的项目—>Open Module Settings.
 
 点击左上角的➕号，并在弹出来的页面中选择import gradle Project, 选择我们的library,并可以命名为你需要的module名字，例如”:emoji”（注意冒号）
@@ -19,8 +20,13 @@ API 21: Android 5.0(Lollipop) 和 21.1.0 (与emoji这个module一样) 点击OK.
 
 (确保你app里的setting.gradle中含有该Module，之后在app中的build.gradle中的dependencies中加入compile project(‘:emoji’)(emoji换成你之前命名的module名字))之后就可以reBuild一下项目啦，如果遇到EmojiUtil类在Build时报错，在报错的时候导入一下包就好了。
 
+
+
 Build方法二（简单粗暴）：
+
+
 `compile 'com.tb.emoji:yykEmoji:1.0.0'`
+
 
 
 代码中的使用：
