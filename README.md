@@ -35,3 +35,11 @@ FaceFragment faceFragment = FaceFragment.Instance();
 getSupportFragmentManager().beginTransaction().add(R.id.Container,faceFragment).commit();
 ```
 注意让你的Activity实现(Fragment中set接口)`FaceFragment.OnEmojiClickListener`来处理emoji的点击事件
+
+
+# Changelog
+
+## 1.0.6
+- 增加英文表情编码
+- 增加将转化成的表情提取出来的方法（EmojiUtil.handlerTextToEmojiSpannable()）让用户可以自定义
+- 用法：compile 'com.tb.emoji:yykEmoji:1.0.6'
