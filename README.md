@@ -39,7 +39,7 @@ getSupportFragmentManager().beginTransaction().add(R.id.Container,faceFragment).
 
 # Changelog
 
-## 1.0.6
+## 1.1.0
 - 增加英文表情编码
 - 增加将转化成的表情提取出来的方法（EmojiUtil.handlerTextToEmojiSpannable()）让用户可以自定义
-- 用法：compile 'com.tb.emoji:yykEmoji:1.0.6'
+- 用法：compile 'com.tb.emoji:yykEmoji:1.1.0'
